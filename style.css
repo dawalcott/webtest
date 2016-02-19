@@ -1,0 +1,33 @@
+ .navbar{
+ overflow: hidden;
+ background-color: aqua;
+ float: left;
+ margin-bottom:50em;
+ margin-right:1em ;
+     
+    }
+    .navbar ul{
+    
+       list-style-type: none;
+    }
+    .navbar li{
+   
+            }
+hr{
+color: aqua;
+}
+body{
+
+}
+.r{
+background-color: red;
+max-width: 100px;
+}
+.b{
+background-color: blue;
+    max-width: 100px;
+}
+.g{
+background-color: green;
+max-width: 100px;
+}

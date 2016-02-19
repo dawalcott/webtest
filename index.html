@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javscript.js"></script>
 </head>
-<body>
- 
+<body id="body">
+<form>
+  
+   </form>
+<h1>What Can JavaScript Do</h1>
+<br>
+
+<h3>JavaScript can change Images</h3>
+<img src="puffing.jpg" width="25%" onclick="changePicture()" id="poo">
+      
+<h3>JavaScript can change text too.</h3> 
+
+<button onclick="myFunction()">Click me</button>
+<h3><p id="demo">JavaScript can also change text</p></h3>
+
+
+<p>Click me to change my text color.</p>
+<div onclick="textholder">
+First Name:<input type="text" id="firstName">
+<br>
+Last Name: <input type="text" id="lastName">
+<br>
+<button onclick="alert('First Name: ' + firstName.value + ' Last Name: ' + lastName.value)">Submit</button>
+</div>
+<p onmouseover="redColor()" onmouseout="whiteColor()" style="color: red; width: 100px;">red</p>
+<p onmouseover="blueColor()" onmouseout="whiteColor()" style="color: blue; width: 100px">blue</p>
+<p onmouseover="greenColor()" onmouseout="whiteColor()" style="color: green; width: 100px">green</p>
+
+<h3>Different types of headings</h3>
+
+<p id="momo"></p>
+
+<button type="button"
+onclick="document.getElementById('momo').innerHTML = '<h1>This is a heading</h1><h2>This is a heading</h2><h3>This is a heading</h3><h4>This is a heading</h4><h5>This is a heading</h5><h6>This is a heading</h6>'">
+Show headings</button>
     
-          
+    
+<button type="button"
+onclick="document.getElementById('momo').innerHTML = ''">
+Hide headings</button>
+<br>
+<br>
+<button onclick="nemo()" id="nemo">click to go to a new window</button>
+
 </body>
 </html>
